@@ -13,6 +13,11 @@ for (var i=0; i < iscritti.length; i++) {
         console.log(mail);
         document.getElementById("esito").innerHTML=utente+(" ")+(" e-mail registrata puoi accedere a LeoBOOK");
     }
+    else{
+        mail= false;
+        document.getElementById("esito").innerHTML=utente+(" ")+(" e-mail non registrata NON puoi accedere a LeoBOOK");
+
+    }
 }
 
 }
